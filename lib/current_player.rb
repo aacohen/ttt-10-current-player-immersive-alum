@@ -1,7 +1,7 @@
 def turn_count(board)
   turnCount = 0
   board.each do |space|
-    space != "X" || "O" ? turnCount : turnCount += 1
+    space == ()"X" || "O") ? turnCount += 1 : turnCount 
   end
   return turnCount
 end
